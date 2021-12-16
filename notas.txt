@@ -1,0 +1,13 @@
+La carpeta public contiene todo lo que vera el usuario, archivos JS, CSS, HTML imagenes, etc.
+.gitignore .- Va a hacer que Git ignore ciertos archivos y no les de seguimiento
+node_modules .- Directorio de los modulos de Node, que nos servira para usar librearias y frameworks    
+    como React, Express, etc.
+La carpeta src es donde se encuentra nuestro proyecto de React.
+archivo package.json - Contiene todos los modulos que ocupamos en nuestro proyecto.
+
+# npx create-react-app <nombre directorio> .- Crea una app de React con todas las configuraciones iniciales.
+# npm run start .- Levanta nuestra app.
+# npm run test .- Comienza a hacer las pruebas o ( tests )
+
+Un test suite, es un archivo de pruebas
+Para hacer pruebas en un solo archivo, basta con escribir en el menu de # npm run test, la letra p y buscar el test suite
