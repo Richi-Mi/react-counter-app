@@ -9,4 +9,4 @@ const divRoot = document.querySelector('#app')
 
 // ReactDOM.render( elementoAgregar, elementoDondeAgregara )
 // ReactDOM.render( <PrimeraApp saludo="Hola Papu" edad={16}/>, divRoot )
-ReactDOM.render( <CounterApp value={0}/>, divRoot)
+ReactDOM.render( <CounterApp value={10}/>, divRoot)

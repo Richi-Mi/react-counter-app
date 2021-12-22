@@ -29,7 +29,7 @@ button {
     background-color: rgb(66, 219, 224);
     color: #21232a;
     transition: .2s background-color ease;
-
+    cursor: pointer;
 }
 button:hover {
     background-color:rgb(26, 162, 167);

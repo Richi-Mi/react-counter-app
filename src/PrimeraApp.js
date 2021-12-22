@@ -19,7 +19,7 @@ const PrimeraApp = ({ saludo, edad, subtitulo = '' }) => {
         < >
             <h1> { saludo } </h1>
             {/* <pre > { JSON.stringify(saludo, null, 3)} </pre> */}
-            <h2> { subtitulo } </h2>
+            <h2>{ subtitulo }</h2>
             <p> Mi primera Apilcación, edad: { edad } </p>    
         </ >
     )

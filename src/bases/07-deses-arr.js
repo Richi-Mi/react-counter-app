@@ -6,14 +6,10 @@ const personajes = ['Goku','Vegeta','Trunks']
 
 const [ , , p1 ] = personajes
 
-console.log( p1 )
-
-const retornarArreglo = () => {
+export const retornarArreglo = () => {
     return [ "ABC", 123 ]
 }
-const [ letras, numeros ] = retornarArreglo()
-
-console.log( letras, numeros )
+// const [ letras, numeros ] = retornarArreglo()
 
 // Tarea
 // El primer valor del arreglo se llamara nombre
@@ -21,6 +17,3 @@ console.log( letras, numeros )
 const getArreglo = ( valor ) => {
     return [ valor, () => { console.log('Hola Papu') }]
 }
-const [ nombre, setNombre ] = getArreglo("Ricardo")
-console.log( nombre )
-setNombre()

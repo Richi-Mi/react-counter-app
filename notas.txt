@@ -7,7 +7,9 @@ archivo package.json - Contiene todos los modulos que ocupamos en nuestro proyec
 
 # npx create-react-app <nombre directorio> .- Crea una app de React con todas las configuraciones iniciales.
 # npm run start .- Levanta nuestra app.
-# npm run test .- Comienza a hacer las pruebas o ( tests )
+# npm run test .- Comienza a hacer las pruebas o ( tests ), con archivos con extension .test
 
 Un test suite, es un archivo de pruebas
 Para hacer pruebas en un solo archivo, basta con escribir en el menu de # npm run test, la letra p y buscar el test suite
+
+tecla u - Para actualizar la snapshoot

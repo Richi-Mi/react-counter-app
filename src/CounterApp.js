@@ -20,7 +20,7 @@ const CounterApp = ({ value }) => {
     return (
         < >
             <h1> CounterApp </h1>
-            <h2> Number:  { counter } </h2>
+            <h2> Number: { counter }</h2>
 
             <button onClick={ handleAdd }> Add Number </button>
             <button onClick={ handleReset }> Reset </button>
@@ -31,5 +31,8 @@ const CounterApp = ({ value }) => {
 // Poner las funciones bien, sin los parentesis
 CounterApp.propTypes = {
     value: PropTypes.number
+}
+CounterApp.defaultProps = {
+    value: 10
 }
 export default CounterApp
